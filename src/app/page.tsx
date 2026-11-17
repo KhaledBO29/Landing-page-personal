@@ -1,5 +1,6 @@
 import { ArrowUpRight } from "lucide-react";
 import { Header } from "@/components/Header";
+import { Introduction } from "@/components/Introduction";
 import { ConversionCards } from "@/components/ConversionCards";
 import { PortfolioTabs } from "@/components/PortfolioTabs";
 import { Ventures } from "@/components/Ventures";
@@ -10,6 +11,7 @@ export default function Home() {
     <main className="min-h-screen overflow-hidden bg-[#09090B] px-4 pb-8 pt-10 text-white sm:pt-12">
       <div className="mx-auto w-full max-w-xl">
         <Header />
+        <Introduction />
         <ConversionCards />
         <Ventures />
         <PortfolioTabs />
